@@ -5,12 +5,37 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 0 auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+.plants{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+  
+}
+
+.plantsBox{
+  align-self: center;
+  flex-basis: 200px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
